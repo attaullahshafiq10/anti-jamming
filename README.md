@@ -44,9 +44,7 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-1. Ensure your telemetry dataset is located at `data/raw_data.csv` or `data/preprocess_data.csv`.
-2. Configure your hyperparameters and reward coefficients in `configs/config.py`.
-3. Execute the full end-to-end pipeline:
+Execute the full end-to-end pipeline:
 ```bash
 python src/main.py
 ```
