@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch models and checkpoints
+models/
+*.pth
+*.pt
+
+# Results, logs and figures
+results/
+logs/
+*.png
+*.pdf
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+
+# Note: Datasets are intentionally left out of this gitignore 
+# because you mentioned you want to push the data. 
+# However, if raw_data.csv or preprocess_data.csv exceed 100MB, 
+# you will need to use Git LFS or add them to this .gitignore.
